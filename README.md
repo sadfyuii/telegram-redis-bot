@@ -1,4 +1,3 @@
-cat > README.md << 'EOF'
 # 🤖 Telegram Bot with Redis Storage
 
 Telegram bot that saves user messages to Redis database.
@@ -21,5 +20,5 @@ Telegram bot that saves user messages to Redis database.
 
 ### 1. Clone repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/telegram-redis-bot.git
+git clone https://github.com/sadfyuii/telegram-redis-bot.git
 cd telegram-redis-bot
