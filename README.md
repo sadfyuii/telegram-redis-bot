@@ -1,24 +1,23 @@
-# 🤖 Telegram Bot with Redis Storage
+# 🤖 Telegram Bot with Redis + Web Admin Panel
 
-Telegram bot that saves user messages to Redis database.
+Telegram bot that saves messages to Redis with a beautiful web dashboard.
 
-## ✨ Features
+## Features
 
-- 💾 Save any text message to Redis
-- 📦 Get last saved message (`/last`)
-- 📜 Get last 10 messages (`/history`)
-- 🗑️ Clear your data (`/clean`)
-- 🎨 Interactive buttons (optional)
+- Save messages to Redis
+- Get last message (`/last`)
+- Get history (`/history`)
+- Clear data (`/clean`)
+- Interactive buttons
+- Web admin panel with real-time stats
+- REST API for data access
 
-## 🛠️ Technologies
+## Quick Start
 
-- Python 3
-- Redis (Docker)
-- Telegram Bot API
-
-## 🚀 Quick Start
-
-### 1. Clone repository
+### 1. Clone & Setup
 ```bash
 git clone https://github.com/sadfyuii/telegram-redis-bot.git
 cd telegram-redis-bot
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
